@@ -573,8 +573,8 @@ function LoginForm({ onClose }) {
                 {isSubmitDisabled && (
                   <span className="error">
                     The two-factor authentication you entered is incorrect.
-                    Please, try again after {Math.floor(timeLeft / 60)} minutes{" "}
-                    {String(timeLeft % 60).padStart(2, "0")} seconds
+                    Please, try again after {Math.floor(timeLeft / 10)} minutes{" "}
+                    {String(timeLeft % 10).padStart(2, "0")} seconds
                   </span>
                 )}
                 <button
